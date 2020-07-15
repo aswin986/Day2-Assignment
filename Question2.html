@@ -1,0 +1,53 @@
+<!-- Explain with examples the remaining methods of String and Array -->
+
+
+
+
+<html>
+    <head>
+        <script>
+             String
+            let a = "aswin";
+            console.log(a);
+            console.log(a.length); // to check the length of a string
+            let b = a.indexOf('w');
+            console.log(b);
+            var str = "Apple, Banana, Kiwi"; //slice() extracts a part of a string and returns the extracted part in a new string.
+             var res = str.slice(7, 13);
+            var str = "Apple, Banana, Kiwi";
+            var res = str.substring(7, 13);
+            console.log(str);
+            console.log(res); //substr() is similar to slice().
+              //The difference is that the second parameter specifies the length of the extracted part.
+              str = "Please visit Microsoft!";
+              var n = str.replace("Microsoft", "LetsUpgrade");//The replace() method replaces a specified value with another value in a string:
+              console.log(str);
+              console.log(n);
+              var text1 = "Hello";
+              var text2 = "World";
+              var text3 = text1.concat(" ", text2); //The concat() method can be used instead of the plus operator. 
+
+              Array
+             // The JavaScript method toString() converts an array to a string of (comma separated) array values.
+             var fruits = ["Banana", "Orange", "Apple", "Mango"];
+             console.log(fruits);
+             //Array elements are accessed using their index number:Array indexes start with 0. [0] is the first array element, [1] is the second, [2] is the third ...
+             fruits[0]="kiwi";
+             
+             let arr = ["one","two","three"['1','2']];
+             console.log(arr);
+            let  arr1 = arr.reverse();
+            console.log(arr1);
+
+            arr.unshift('aswin');
+            console.log(arr);
+             
+            
+        
+        
+        
+        
+        
+        </script>
+    </head>
+</html>
